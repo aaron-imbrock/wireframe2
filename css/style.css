@@ -1,0 +1,35 @@
+body, html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-color: #444;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+nav {
+    width: 960px;
+    margin: auto;
+}
+
+nav img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+
