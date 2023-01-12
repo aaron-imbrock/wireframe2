@@ -72,12 +72,14 @@ p {
 }
 
 /* 
-    Transition lives on the class, 
+    Transition livaddinges on the class, 
     not the psuedo-class of button:hover
 */
 button {
     margin-top: 15px;
     transition: 350ms;
+    width: 280px;
+    height: 30px;
 }
 
 button:hover {
