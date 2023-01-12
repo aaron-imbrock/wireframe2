@@ -51,6 +51,39 @@ section {
     margin-bottom: 30px;
 }
 
+section article {
+    /* padding-left: 30px; */
+    margin-left: 30px;
+
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/* 
+    To get that overflow... 
+    overflow: auto
+*/
+p {
+    height: 300px;
+    overflow: auto;
+}
+
+/* 
+    Transition lives on the class, 
+    not the psuedo-class of button:hover
+*/
+button {
+    margin-top: 15px;
+    transition: 350ms;
+}
+
+button:hover {
+    background-color: green;
+}
+
 footer {
     height: 150px;
     background-color: #444;
